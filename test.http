@@ -1,0 +1,12 @@
+### Test GET /checkout endpoint
+
+GET http://localhost:3000/checkout
+Accept: application/json
+
+### Expected response:
+# HTTP/1.1 200 OK
+# Content-Type: application/json
+#
+# {
+#   "message": "Checkout endpoint is working"
+# }
